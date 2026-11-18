@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="DqGOLbEThwBy0YJb_fyR">
-    <mxGraphModel dx="382" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2948" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,13 +38,13 @@
           <mxGeometry height="60" width="300" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-13" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="630" width="700" x="410" as="geometry" />
+          <mxGeometry height="630" width="420" x="340" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-14" connectable="0" parent="4_rZo8wPsxuvripIzmJQ-13" style="group" value="" vertex="1">
-          <mxGeometry height="580" width="653.3333333333334" x="23.333333333333336" y="50" as="geometry" />
+          <mxGeometry height="580" width="392" x="14.000000000000002" y="50" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-15" parent="4_rZo8wPsxuvripIzmJQ-14" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="580" width="653.3333333333334" as="geometry" />
+          <mxGeometry height="580" width="392" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-16" edge="1" parent="4_rZo8wPsxuvripIzmJQ-14" source="4_rZo8wPsxuvripIzmJQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="4_rZo8wPsxuvripIzmJQ-20" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -56,28 +56,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-19" parent="4_rZo8wPsxuvripIzmJQ-14" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;phyloseq package in R&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="198.33333333333334" y="30" as="geometry" />
+          <mxGeometry height="60" width="168" x="119" y="30" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-20" parent="4_rZo8wPsxuvripIzmJQ-14" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;amplicon sequence variants (ASVs)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="198.33333333333334" y="170" as="geometry" />
+          <mxGeometry height="60" width="168" x="119" y="170" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-21" parent="4_rZo8wPsxuvripIzmJQ-14" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;normalized using DESeq2 via the “phyloseq_to_deseq2”&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="198.33333333333334" y="310" as="geometry" />
+          <mxGeometry height="60" width="250" x="78" y="310" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-22" parent="4_rZo8wPsxuvripIzmJQ-14" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Normalized counts were obtained using the variance stabilizing transformation (VST)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="110" width="373.33333333333337" x="151.66666666666669" y="430" as="geometry" />
+          <mxGeometry height="110" width="224.00000000000003" x="91.00000000000001" y="430" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-23" parent="4_rZo8wPsxuvripIzmJQ-13" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Microbial community analysis-R&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="700" as="geometry" />
+          <mxGeometry height="60" width="420" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-37" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="630" width="700" x="1180" as="geometry" />
+          <mxGeometry height="630" width="470" x="770" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-38" connectable="0" parent="4_rZo8wPsxuvripIzmJQ-37" style="group" value="" vertex="1">
-          <mxGeometry height="580" width="653.3333333333334" x="23.333333333333336" y="50" as="geometry" />
+          <mxGeometry height="580" width="438.66666666666663" x="15.666666666666668" y="50" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-39" parent="4_rZo8wPsxuvripIzmJQ-38" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="580" width="653.3333333333334" as="geometry" />
+          <mxGeometry height="580" width="438.66666666666663" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-40" edge="1" parent="4_rZo8wPsxuvripIzmJQ-38" source="4_rZo8wPsxuvripIzmJQ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="4_rZo8wPsxuvripIzmJQ-44" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -88,53 +88,74 @@
         <mxCell id="4_rZo8wPsxuvripIzmJQ-42" edge="1" parent="4_rZo8wPsxuvripIzmJQ-38" source="4_rZo8wPsxuvripIzmJQ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="4_rZo8wPsxuvripIzmJQ-46" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-43" parent="4_rZo8wPsxuvripIzmJQ-38" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Alpha Diversity three-way analysis of variance (ANOVA)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="197.33333333333334" y="30" as="geometry" />
+        <mxCell id="4_rZo8wPsxuvripIzmJQ-43" parent="4_rZo8wPsxuvripIzmJQ-38" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Three-way analysis of variance (ANOVA)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="106.5" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-44" parent="4_rZo8wPsxuvripIzmJQ-38" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;amplicon sequence variants (ASVs)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="197.33333333333334" y="170" as="geometry" />
+        <mxCell id="4_rZo8wPsxuvripIzmJQ-44" parent="4_rZo8wPsxuvripIzmJQ-38" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;measuring the effect of treatment (control, heat stress, or heat shock), pollen (pollen or no pollen), and time (D0, D7, and D14) and their interactions.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="340" x="56.5" y="150" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-45" parent="4_rZo8wPsxuvripIzmJQ-38" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;normalized using DESeq2 via the “phyloseq_to_deseq2”&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="197.33333333333334" y="310" as="geometry" />
+          <mxGeometry height="60" width="210.5" x="121.25" y="310" as="geometry" />
         </mxCell>
         <mxCell id="4_rZo8wPsxuvripIzmJQ-46" parent="4_rZo8wPsxuvripIzmJQ-38" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Normalized counts were obtained using the variance stabilizing transformation (VST)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="110" width="373.33333333333337" x="150.66666666666669" y="430" as="geometry" />
+          <mxGeometry height="110" width="250.66666666666669" x="101.16190476190476" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-47" parent="4_rZo8wPsxuvripIzmJQ-37" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Alpha and Beta Diversity-R&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="700" as="geometry" />
+        <mxCell id="4_rZo8wPsxuvripIzmJQ-47" parent="4_rZo8wPsxuvripIzmJQ-37" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Alpha Diversity-R&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="469.99999999999994" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-48" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="630" width="700" x="1920" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="1380" width="840" x="1250" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-49" connectable="0" parent="4_rZo8wPsxuvripIzmJQ-48" style="group" value="" vertex="1">
-          <mxGeometry height="580" width="653.3333333333334" x="23.333333333333336" y="50" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-4" connectable="0" parent="lCYKvD4UdLZsvtYjQ_IB-3" style="group" value="" vertex="1">
+          <mxGeometry height="1270.4761904761906" width="784" x="28" y="40.00380952380954" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-50" parent="4_rZo8wPsxuvripIzmJQ-49" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="580" width="653.3333333333334" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-5" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="590" width="784" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-51" edge="1" parent="4_rZo8wPsxuvripIzmJQ-49" source="4_rZo8wPsxuvripIzmJQ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="4_rZo8wPsxuvripIzmJQ-55" value="">
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-17" edge="1" parent="lCYKvD4UdLZsvtYjQ_IB-4" source="lCYKvD4UdLZsvtYjQ_IB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lCYKvD4UdLZsvtYjQ_IB-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-52" edge="1" parent="4_rZo8wPsxuvripIzmJQ-49" source="4_rZo8wPsxuvripIzmJQ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="4_rZo8wPsxuvripIzmJQ-56" value="">
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-9" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fontColor=light-dark(#EDEDED,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; text-align: start;&quot;&gt;Differential abundance of microbial taxa was measured using two methods:&lt;/span&gt;" vertex="1">
+          <mxGeometry height="39.52" width="589.79" x="102.17" y="140.48" as="geometry" />
+        </mxCell>
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-12" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;visualized using principal coordinate analysis using Bray-Curtis dissimilarity values&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="579.17" x="112.78999999999999" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-14" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;independently comparing all major factors (i.e. no interaction effect)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="448" x="12.17" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-15" edge="1" parent="lCYKvD4UdLZsvtYjQ_IB-4" source="lCYKvD4UdLZsvtYjQ_IB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=classic;endFill=1;" target="lCYKvD4UdLZsvtYjQ_IB-14" value="">
+          <mxGeometry relative="1" x="0.0076" as="geometry" />
+        </mxCell>
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-16" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;comparing normalized abundance&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="214.47" x="520" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-19" edge="1" parent="lCYKvD4UdLZsvtYjQ_IB-4" source="lCYKvD4UdLZsvtYjQ_IB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lCYKvD4UdLZsvtYjQ_IB-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-53" edge="1" parent="4_rZo8wPsxuvripIzmJQ-49" source="4_rZo8wPsxuvripIzmJQ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="4_rZo8wPsxuvripIzmJQ-57" value="">
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-18" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeColor=light-dark(#000000,#FFFFFF);fontColor=light-dark(#EDEDED,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; text-align: start;&quot;&gt;three-way permutational analysis of variance (PERMANOVA) using the “adonis2” function via the VEGAN package in R&lt;/span&gt;" vertex="1">
+          <mxGeometry height="71.67" width="686.89" x="53.62" y="43.81" as="geometry" />
+        </mxCell>
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-24" edge="1" parent="lCYKvD4UdLZsvtYjQ_IB-4" source="lCYKvD4UdLZsvtYjQ_IB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lCYKvD4UdLZsvtYjQ_IB-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-54" parent="4_rZo8wPsxuvripIzmJQ-49" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Alpha Diversity three-way analysis of variance (ANOVA)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="197.33333333333334" y="30" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-22" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;using ANCOM-BC2 at the species level [56] using raw ASV counts and Benjamini-Hochberg (BH) corrections for multiple testing&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="448" x="12.17" y="338.57" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-55" parent="4_rZo8wPsxuvripIzmJQ-49" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;amplicon sequence variants (ASVs)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="197.33333333333334" y="170" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-23" edge="1" parent="lCYKvD4UdLZsvtYjQ_IB-4" source="lCYKvD4UdLZsvtYjQ_IB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lCYKvD4UdLZsvtYjQ_IB-22" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-56" parent="4_rZo8wPsxuvripIzmJQ-49" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;normalized using DESeq2 via the “phyloseq_to_deseq2”&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="280" x="197.33333333333334" y="310" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-27" edge="1" parent="lCYKvD4UdLZsvtYjQ_IB-4" source="lCYKvD4UdLZsvtYjQ_IB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lCYKvD4UdLZsvtYjQ_IB-12" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-57" parent="4_rZo8wPsxuvripIzmJQ-49" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Normalized counts were obtained using the variance stabilizing transformation (VST)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="110" width="373.33333333333337" x="150.66666666666669" y="430" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-25" parent="lCYKvD4UdLZsvtYjQ_IB-4" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;fontColor=light-dark(#EDEDED,#FFFFFF);" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 16px; text-align: start;&quot;&gt;using the likelihood ratio test implemented in DESeq2&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="250" x="502.24" y="368.57" as="geometry" />
         </mxCell>
-        <mxCell id="4_rZo8wPsxuvripIzmJQ-58" parent="4_rZo8wPsxuvripIzmJQ-48" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Alpha and Beta Diversity-R&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="700" as="geometry" />
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-26" edge="1" parent="lCYKvD4UdLZsvtYjQ_IB-4" source="lCYKvD4UdLZsvtYjQ_IB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="lCYKvD4UdLZsvtYjQ_IB-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lCYKvD4UdLZsvtYjQ_IB-13" parent="lCYKvD4UdLZsvtYjQ_IB-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span lang=&quot;EN&quot; style=&quot;color: rgb(0, 0, 0); text-align: start; font-size: 12pt; line-height: 32px; font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot;&gt;Beta Diversity-R&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
